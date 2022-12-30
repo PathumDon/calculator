@@ -6,6 +6,7 @@ const btnMultipicatoin = document.getElementById('btnMultipicatoin');
 const btnMinus = document.getElementById('btnMinus');
 const btnPlus = document.getElementById('btnPlus');
 const btnDecimel = document.getElementById('btnDecimel');
+const btnDivide = document.getElementById('btnDivide');
 const operators = ['+','-','*','/','.']
 const numbers = [1,2,3,4,5,6,7,8,9,0]
 const btns = []
@@ -54,6 +55,9 @@ btnEqul.addEventListener('click', () => {
     txtBox.value = eval(txtBox.value)
 });
 
+btnDivide.addEventListener('click', () => {
+    display('/')
+});
 
 document.addEventListener('keydown', (event) => {
     let name = event.key;

@@ -8,8 +8,8 @@ body{
     background-color: aquamarine;
 }
 header h1{
-    font-size: 24px;
-    color: gray;
+    font-size: 28px;
+    color: rgb(17, 16, 16);
     text-align: center;
     padding: 30px;
 }
@@ -55,6 +55,10 @@ header h1{
 
 }
 
+#btnEqul{
+    width: 98%;
+    margin: auto;
+}
 .btn{
     background-color: rgb(236, 234, 234);
     color: rgb(0, 0, 0);
